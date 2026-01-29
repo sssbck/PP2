@@ -1,1 +1,5 @@
 print("Hello from Practice 1")
+print("Python is easy")
+print("Python is powerful")
+print(2 + 3)
+print(True)
