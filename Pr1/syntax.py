@@ -1,5 +1,5 @@
 if 5 > 3:
-    print("Five is greater than three")
+    print("Five is bolshe than three")
  
 x = 5
 y = 3
@@ -9,8 +9,8 @@ for i in range(3):
     print(i)
 
 def my_function():
-    print("Hello from function")
+    print("Hello from Dagestan")
 
 my_function()
 
-print("Indentation matters in Python")
+print("maybe Python is best")
