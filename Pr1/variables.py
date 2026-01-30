@@ -1,5 +1,5 @@
 name = "Chuvak"
-print(name)
+print(name) 
 
 x = 67
 print(x)
