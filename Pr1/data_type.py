@@ -1,5 +1,5 @@
 x = 5
-print(type(x))
+print(type(x)) 
 
 x = 3.14
 print(type(x))
