@@ -1,43 +1,34 @@
 
-def divide(a: float, b: float):
 
-    if b == 0:
-        return None, "Division by zero is not allowed"
-    return a / b, None
+def sum_all(*args: int) -> int:
+    total = 0
+    for x in args:
+        total += x
+    return total
 
-def find_max(numbers: list[int]) -> int:
-    maximum = numbers[0]
-    for x in numbers[1:]:
-        if x > maximum:
-            maximum = x
-    return maximum
+def print_profile(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
 
-def grade(score: int) -> str:
-    if score >= 90:
-        return "A"
-    if score >= 80:
-        return "B"
-    if score >= 70:
-        return "C"
-    if score >= 60:
-        return "D"
-    return "F"
+def build_sentence(*words: str, sep: str = " ") -> str:
+    return sep.join(words)
 
-def sign(n: int) -> int:
-    if n < 0:
-        return -1
-    if n > 0:
-        return 1
-    return 0
+def apply_discount(price: float, **kwargs) -> float:
+    
+    percent = kwargs.get("percent", 0)
+    fixed = kwargs.get("fixed", 0)
+
+    new_price = price - (price * percent / 100) - fixed
+    return max(new_price, 0)
 
 if __name__ == "__main__":
-    res, err = divide(10, 2)
-    print("divide(10,2):", res, err)
+    print("sum_all(1,2,3,4) =", sum_all(1, 2, 3, 4))
 
-    res, err = divide(10, 0)
-    print("divide(10,0):", res, err)
-    print("max:", find_max([5, 1, 9, 2]))
-    for s in [95, 82, 74, 61, 50]:
-        print(s, "->", grade(s))
-    for x in [-7, 0, 3]:
-        print("sign(", x, ") =", sign(x))
+    print_profile(name="Alice", age=20, city="Almaty")
+
+    print(build_sentence("I", "love", "Python"))
+    print(build_sentence("a", "b", "c", sep="-"))
+
+    print("Discounted:", apply_discount(1000, percent=10))
+    print("Discounted:", apply_discount(1000, fixed=250))
+    print("Discounted:", apply_discount(1000, percent=10, fixed=50))
