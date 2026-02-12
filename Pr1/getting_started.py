@@ -1,7 +1,7 @@
 print("Python is installed")
 
 x = 10
-print(x)
+print(x) 
 
 name = "Student"
 
