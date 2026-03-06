@@ -18,7 +18,6 @@ def parse_receipt(text: str) -> dict[str, Any]:
     date = date_time_match.group(1) if date_time_match else None
     time = date_time_match.group(2) if date_time_match else None
 
-
     payment_match = re.search(
         r"(?im)^\s*payment\s*method\s*[:\-]?\s*([A-Z ]+)\s*$",
         text,
