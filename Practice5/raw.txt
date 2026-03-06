@@ -1,0 +1,22 @@
+MEGA MART ALMATY
+Abay Ave 150/230
+BIN 123456789012
+Tel: +7 (727) 123-45-67
+
+Receipt No: 000145
+Date: 05/03/2026 13:42:18
+Cashier: Aigerim
+
+Milk 1L                    2 x 520.00      1040.00
+Bread Borodinsky          1 x 340.00       340.00
+Eggs 10 pcs               1 x 870.00       870.00
+Apples kg                 1.25 x 899.00    1123.75
+Chocolate Bar             3 x 280.00       840.00
+
+Subtotal                                   4213.75
+Discount                                    200.00-
+TOTAL                                      4013.75
+
+Payment method: CARD
+Card **** 4831
+Thank you for your purchase!
