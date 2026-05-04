@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Ivan",
+        "email": "ivan@gmail.com",
+        "birthday": "2000-02-22",
+        "group": "Work",
+        "phones": [
+            "87750124578:work"
+        ]
+    },
+    {
+        "name": "Ayat",
+        "email": "ivan@gmail.com",
+        "birthday": "2000-02-22",
+        "group": "Work",
+        "phones": [
+            "87750124578:work"
+        ]
+    },
+    {
+        "name": "Abai",
+        "email": "boris@test.com",
+        "birthday": null,
+        "group": "Friend",
+        "phones": [
+            "87475556677:mobile"
+        ]
+    },
+    {
+        "name": "Era",
+        "email": "era00@mail.ru",
+        "birthday": "2000-08-19",
+        "group": "Work",
+        "phones": [
+            "87771811415:work"
+        ]
+    },
+    {
+        "name": "Serik",
+        "email": "anna@mail.ru",
+        "birthday": "1995-10-15",
+        "group": "Family",
+        "phones": [
+            "87012223344:home"
+        ]
+    },
+    {
+        "name": "Myrza",
+        "email": "mmrza.ru",
+        "birthday": "2000-07-14",
+        "group": "Gym",
+        "phones": [
+            "87750477769:work"
+        ]
+    }
+]
